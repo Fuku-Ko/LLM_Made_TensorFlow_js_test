@@ -1,5 +1,5 @@
-# LLM_Made_Tensorflow_js_test お手軽機械学習
-Tensorflow.jsをAI生成コードで試してみたもの
+# LLM_Made_TensorFlow_js_test お手軽機械学習
+TensorFlow.jsをAI生成コードで試してみたもの
 
 # 使い方
 
@@ -7,7 +7,7 @@ Tensorflow.jsをAI生成コードで試してみたもの
 
 以下のリンクをクリックして試してみてください(mainブランチのものが起動します)。
 
-https://fuku-ko.github.io/LLM_Made_Tensorflow_js_test/
+https://fuku-ko.github.io/LLM_Made_TensorFlow_js_test/
 
 ## オフライン版（ローカル版：本命）
 
@@ -33,7 +33,7 @@ jsの中に、以下の3つのファイルを作成してください。
 
 
    tf.min.js:
-   https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js
+   https://cdn.jsdelivr.net/npm/@TensorFlow/tfjs@4.10.0/dist/tf.min.js
 
 
    chart.umd.js:
@@ -54,7 +54,7 @@ index.htmlをダブルクリックで開くと、オフライン版を選択で�
 
 ## 作成の目的
 
-Tensorflow.jsがどんなものなのか試してみること。
+TensorFlow.jsがどんなものなのか試してみること。
 
 ## できること
 
@@ -86,7 +86,7 @@ JavaScript (HTML+JavaScript+CSS)にて作成されています。
 
 ## モデル
 
-ニューラルネットワーク（NN）によっています。ライブラリとしてTensorflow.jsを用いています。
+ニューラルネットワーク（NN）によっています。ライブラリとしてTensorFlow.jsを用いています。
 
 ## 学習
 
