@@ -33,15 +33,16 @@ jsの中に、以下の3つのファイルを作成してください。
 
 
    tf.min.js:
-   https://cdn.jsdelivr.net/npm/@TensorFlow/tfjs@4.10.0/dist/tf.min.js
+   https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js
 
 
    chart.umd.js:
-   https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js
+   https://cdn.jsdelivr.net/npm/chart.js@4.6.1/dist/chart.umd.js
 
 
    papaparse.min.js:
-   https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js
+   https://cdn.jsdelivr.net/npm/papaparse@5.7.0/papaparse.min.js
+
 
 
 index.htmlをダブルクリックで開くと、オフライン版を選択できるようになっているはずです。
