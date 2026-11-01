@@ -1661,11 +1661,11 @@
             const selectedRadio = document.querySelector('input[name="libSource"]:checked');
             const selectedVal = selectedRadio ? selectedRadio.value : 'online';
             loadBtn.disabled = true; loadBtn.innerText = "読込中";
-            
+
             let sources = selectedVal === 'online' ? {
-                tf: 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js',
-                chart: 'https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js',
-                papa: 'https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js'
+                tf: 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js',
+                chart: 'https://cdn.jsdelivr.net/npm/chart.js@4.6.1/dist/chart.umd.js',
+                papa: 'https://cdn.jsdelivr.net/npm/papaparse@5.7.0/papaparse.min.js'
             } : {
                 tf: 'js/tf.min.js', chart: 'js/chart.umd.js', papa: 'js/papaparse.min.js'
             };
